@@ -17,8 +17,8 @@ cmake -version
 # download repo:111
 cd ~/Documents/
 mkdir repo
-
-wget --user <username> --password <password> https://bitbucket.org/socketweaver/swnet/get/9f67b878ca56.zip
+cd repo
+wget --user shuningzhou --password $1 https://bitbucket.org/socketweaver/swnet/get/9f67b878ca56.zip
 unzip 9f67b878ca56.zip
 cd socketweaver-swnet-9f67b878ca56
 make new-developer
